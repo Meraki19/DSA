@@ -144,4 +144,19 @@ var isPalindrome = function (s) {
   return true;
 };
 
-console.log(isPalindrome("';"));
+// console.log(isPalindrome("';"));
+
+//fibnoci series 
+const fibnociSeries = (n)=> {
+  if(n==0) return 0
+  if(n==1 || n==2) return 1
+  function fib(position, fibItem,previousnumber) {
+    if(position==n) {
+      return fibItem+previousnumber
+    }
+   return fib(position+1,fibItem+previousnumber,fibItem)
+  }
+
+ return fib(3,1,1)
+}
+console.log(fibnociSeries(6))
