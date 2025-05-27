@@ -1,5 +1,5 @@
 //Hasing is indexing data to a fixed size value called hash
-//  MAP DATA STRUCUTRE  is a build in objec that uses  hashmap(hashtable) under the hood
+//  MAP DATA STRUCUTRE  is a build in object that uses  hashmap(hashtable) under the hood
 //the time complexity for average case is o(1) and worst case is o(n) 
 // and space complexity is o(n) for primitive key and value  where n is the number of enteries.
 // When you say space complexity is o(n) we mean that each entry is differnt its kind of a worst case 
