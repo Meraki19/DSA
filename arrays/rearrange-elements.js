@@ -18,6 +18,9 @@
 //console.log(rearrangeElements([3,1,-2,-5,2,-4]))
 
 const rearrageElements= (nums)=> {
+    //another approach 
+    // both appraoch almost take same time and space complexity , time comoplecity of this one is o(n) and space complexity is o(n)
+    //previous one time complexity is O(n+n) = O(2n)~ o(n) and space complxity is o(n)
     let posindex=0, negIndex=1
     let res= new Array(nums.length)
     for(let i=0;i<nums.length;i++) {
